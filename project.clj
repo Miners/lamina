@@ -13,6 +13,7 @@
              :1.6 {:dependencies [[org.clojure/clojure "1.6.0"]]}}
   :aliases {"all" ["with-profile" "dev:dev,1.6"]}
   :plugins [[codox "0.6.2"]]
+  :local-repo "m2"
   :codox {:writer codox-md.writer/write-docs
           :include [lamina.core
                     lamina.trace
